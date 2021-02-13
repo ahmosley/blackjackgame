@@ -1,0 +1,82 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
+body {
+    background-color: green;
+    margin: 0 0 40px;
+    padding: 0px;
+}
+
+
+header{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.title{
+    font-size:50px;
+}
+.console{
+    position: relative;
+    width: 350px;
+    margin: 10px auto;
+}
+
+
+button{
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-weight: 700;
+    font-family: 'arial';
+    font-size: 2em;
+    display: block;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 130px;
+    text-align: center;
+
+}
+
+
+#start {
+    float: left;
+}
+#reset{
+    float: right;
+}
+
+.centered{
+    font: normal 21px/normal 'Merriweather', serif;
+    position: relative;
+    height: 450px;
+    width: 650px;
+    margin: 10px auto;
+    padding-top: 20px;
+}
+
+.dealer{
+    color: black;
+    text-align: center;
+}
+
+.player{
+    margin-top: 15px;
+    color: black;
+    text-align: center; 
+}
+#tracker {
+    text-align: center;
+}
+
+#start, #reset {
+    z-index: 1;
+}
+li {
+    list-style: none;
+}
